@@ -1,0 +1,94 @@
+body {
+    overflow-y: scroll;
+    font-family: sans-serif;
+}
+
+button,
+input,
+select {
+    font: inherit;
+}
+
+#content {
+    width: 400px;
+
+    margin: 0 auto;
+    padding: 10px;
+
+    background-color: #efefef;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.title {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+
+    text-align: center;
+}
+
+.title h1 {
+    margin: auto 0;
+
+    font-size: 1em;
+}
+
+.title p {
+    margin: 5px 0 auto;
+}
+
+.input__title {
+    margin-bottom: 5px;
+}
+
+.input__notice {
+    margin: 5px 0 auto;
+
+    font-size: 0.7em;
+}
+
+.input__line label::after {
+    content: ' = ';
+}
+
+.input__line input[type='number'] {
+    width: 70px;
+}
+
+.input--submit {
+    display: block;
+    margin-top: 10px;
+}
+
+.result:not(:empty) {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #000;
+}
+
+.result table {
+    width: 100%;
+}
+
+.result table,
+.result table th,
+.result table td {
+    border: 1px solid #9a9a9a;
+}
+
+.result table th,
+.result table td {
+    padding: 5px;
+    text-align: center;
+}
+
+.result table tr[data-max] {
+    background-color: #d8d8d8;
+}
+
+.result__download {
+    padding: 10px 5px 0;
+    text-align: center;
+}
